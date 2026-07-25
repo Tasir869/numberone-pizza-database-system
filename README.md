@@ -56,6 +56,7 @@ numberone-pizza-database-system/
 ├── sql/
 ├── documentation/
 └── screenshots/
+```
 
 ## My Contribution
 
