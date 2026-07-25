@@ -1,3 +1,4 @@
+USE numberone_pizza;
 /*
     Numberone Pizza Database System
     Sample data
@@ -7,7 +8,7 @@
     and are provided only for database testing.
 */
 
---Data Insertion starts here
+-- Data Insertion starts here
 -- Inserting data into the Customer table
 INSERT INTO Customer (CustomerId, FirstName, Surname, Phone, Address)
 VALUES
@@ -21,7 +22,7 @@ VALUES
  ('118', 'William', 'Anderson', '555-888-7777', '456 Oak Lane'),
  ('119', 'Emily', 'Taylor', '555-999-8888', '789 Cedar Road'),
  ('120', 'Richard', 'Moore', '555-666-5555', '234 Birch Street');
---Inserting data into the Staff table
+-- Inserting data into the Staff table
 INSERT INTO Staff (StaffId, TaxFileNo, FirstName, Surname, Phone, Description,
 Address, Status, AcName, BSB, AcNo)
 VALUES
